@@ -9,7 +9,9 @@ The field “Status” of the report is updated by the server administrator depe
 Relational Schema
 
 REQUEST (RequestId, Address, ReporterName, ProblemType, Status)
+
 PROBLEM_TYPE (Problem_Code, DId)
+
 DEVICE (IMEI_Number, ReportnerName, ReporterPhoneNo)
 DEPT (DeptId, SupervisorId, VehicleId)
 SUPERVISOR (SupervisorId, SName, DId)
