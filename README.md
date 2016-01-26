@@ -13,7 +13,11 @@ REQUEST (RequestId, Address, ReporterName, ProblemType, Status)
 PROBLEM_TYPE (Problem_Code, DId)
 
 DEVICE (IMEI_Number, ReportnerName, ReporterPhoneNo)
+
 DEPT (DeptId, SupervisorId, VehicleId)
+
 SUPERVISOR (SupervisorId, SName, DId)
+
 VEHICLE (VehiclePlateNo, DId, BOOL_Available)
+
 WORKER (EmpId, DId, EmpName)
