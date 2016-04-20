@@ -1,4 +1,4 @@
-This is an iPhone app for a City Council that empowers residents to be the City's "eyes and ears." The citizens can reports several neighbourhood issues like pothole, bridge repair, gutter repair etc. to the City Council via this app. The app captures the issue type, GPS coordinates of the location, reporter details etc. and send it across to the City server. 
+This is a web app for a City Council that empowers residents to be the City's "eyes and ears." The citizens can reports several neighbourhood issues like pothole, bridge repair, gutter repair etc. to the City Council via this app. The app captures the issue type, GPS coordinates of the location, reporter details etc. and send it across to the City server. 
 
 When the server receiver a new request, it creates a new entry in its database where are the reports are stored with all kinds of information related to the request. It consists of fields like issue code, the date and time at which it was created, the department which the issue type falls under, supervisor code, employee code assigned to resolve the request, current status of request, request id, etc.
 
